@@ -1,0 +1,150 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:500px;
+    left:0px;
+   
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.illustrator img{
+ width: 750px;
+ height: 600px;
+ position: relative;
+
+ top: -270px;
+ left: 840px;
+}
+#quotelines{
+    font-size:28px;
+    color: white;
+    position: relative;
+    top:90px;
+    left:10px;
+;
+}
+#name{
+    font-size: 28px;
+    position: relative;
+    top: -85px;
+    left: 80px;
+    color :white;
+    position: relative;
+    
+
+}
+/*.heder
+ {
+    height:100px;
+    width:100%; 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:10px solid rgb(241, 241, 236);
+    padding-top: 50px;
+    font-size: 70px;
+    color:rgb(253, 250, 250);
+    text-shadow: aqua;
+    
+}*/
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-weight:bold;
+    font-size: 40px;
+}
+
+#getdata{
+    color:black;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #378805;
+    color: white;
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: -1200px;
+    border: none;
+    
+    cursor :pointer;
+}
+#getdata:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#data
+{
+    width:99%;
+    height:500px;
+    text-align: right;
+    justify-content: center;
+    display: flex;  
+    position: relative;
+    top: -200px; 
+    
+}
+.table
+{
+    width:900px;
+
+}
+table{
+    color:rgb(241, 0, 221);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:rgb(222, 224, 165);
+    transform:scale(1.5);
+    z-index:2;
+}
+img{
+    clip-path: square();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(247, 244, 248);
+    padding-top: 50px;
+}
+.more-btn{
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    font-family: lato;
+    background-color: #378805;
+    position:absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-weight: bold;
+   
+    position:relative;
+    left: -690px;
+    top: -745px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+
+
+}
+.more-btn:hover{
+    background-color: white;
+    color: black;
+}
